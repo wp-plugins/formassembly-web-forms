@@ -5,15 +5,27 @@ Requires at least: 4.0.0
 Tested up to: 4.1.0
 Stable tag: 2.0
 
-Embed a FormAssembly form in a WordPress post. Create your web form at http://www.formassembly.com then add [formassembly formid=NNNN] to your post.
+Quickly embed FormAssembly web forms with the FormAssembly WordPress Plugin! Create contact forms, applications, payment forms, & surveys.
 
 == Description ==
-To add your form to your WordPress page:
 
-1. Install our WordPress Plugin.
-1. Copy the form ID. The ID can be found in the Publish tab, at the end of the publicly available address (e.g., http://www.tfaforms.com/123456).
-1. Replace 123456 with the ID of your form in the shortcode.
-1. If you're a FormAssembly Enterprise customer, add the server attribute in the shortcode (see below).
+Quickly embed FormAssembly web forms into your website with the FormAssembly WordPress Plugin! Create contact forms, applications, payment forms and surveys.
+
+Build powerful forms that integrate with Salesforce, PayPal, Google Apps and more.
+
+Signup for a free trial on FormAssembly.com to start building your form, then use the plugin and shortcode to embed onto your WordPress site.
+
+Shortcodes
+
+Replace 123456 with your form ID. Learn more: http://help.formassembly.com/knowledgebase/articles/340363-wordpress
+
+Example shortcode for Basic, Professional, & Premier Plans:
+[formassembly formid=123456] 
+
+Shortcode for Enterprise: 
+[formassembly formid=123456 server="http://your.server.tld"]
+
+To use this plugin, you will need a FormAssembly account.
 
 = Example Shortcodes =
 
